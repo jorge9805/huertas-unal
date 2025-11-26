@@ -16,34 +16,6 @@ const documents = [
     embedUrl: 'https://www.youtube.com/embed/DRFZuXo0VZo'
   },
   {
-    id: 2,
-    type: 'Interview',
-    typeColor: 'bg-red-100 text-red-800',
-    date: 'Nov 2024',
-    title: 'Los Plantados - Interview 2',
-    description: 'Video interview exploring sustainable agricultural practices and the community impact of Los Plantados initiative.',
-    author: 'Los Plantados Research Group',
-    link: 'https://youtu.be/Vy1kJk-EsvA',
-    linkText: 'Watch Interview',
-    linkColor: 'text-red-600 hover:text-red-800',
-    icon: VideoCamera,
-    embedUrl: 'https://www.youtube.com/embed/Vy1kJk-EsvA'
-  },
-  {
-    id: 3,
-    type: 'Interview',
-    typeColor: 'bg-red-100 text-red-800',
-    date: 'Nov 2024',
-    title: 'Los Plantados - Interview 3',
-    description: 'Video interview highlighting achievements, lessons learned, and future perspectives of Los Plantados project.',
-    author: 'Los Plantados Research Group',
-    link: 'https://youtu.be/qBSp2ezxYWI',
-    linkText: 'Watch Interview',
-    linkColor: 'text-red-600 hover:text-red-800',
-    icon: VideoCamera,
-    embedUrl: 'https://www.youtube.com/embed/qBSp2ezxYWI'
-  },
-  {
     id: 4,
     type: 'Interview',
     typeColor: 'bg-pink-100 text-pink-800',
