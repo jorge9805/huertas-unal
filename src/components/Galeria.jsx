@@ -5,59 +5,83 @@ function Galeria() {
     <section id="galeria" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-          <Camera size={32} weight="fill" className="inline text-green-600" /> Galería de Proyectos
+          <Camera size={32} weight="fill" className="inline text-green-600" /> Project Gallery
         </h2>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px]">
           {/* Video Grande */}
-          <div className="col-span-2 row-span-2 relative rounded-xl overflow-hidden shadow-lg">
-            <iframe 
-              className="w-full h-full absolute inset-0" 
-              src="https://www.youtube.com/embed/s-Yy6a9ok6I?rel=0" 
-              title="Video Principal" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              referrerPolicy="no-referrer" 
-              allowFullScreen
-            />
+          <div className="col-span-2 row-span-2 relative rounded-xl overflow-hidden shadow-lg bg-black">
+            <video 
+              className="w-full h-full object-cover" 
+              controls
+              preload="metadata"
+            >
+              <source src="/documents/proyect_gallery/video_2025-11-26_16-03-24.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
 
-          {/* Fotos Varias */}
+          {/* Fotos */}
           <div className="relative rounded-xl overflow-hidden group">
             <img 
-              src="https://picsum.photos/seed/gal1/400/400" 
-              alt="Proyecto 1"
+              src="/documents/proyect_gallery/photo_2025-11-26_16-01-53.jpg" 
+              alt="Project Photo 1"
               className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
             />
           </div>
           <div className="relative rounded-xl overflow-hidden group">
             <img 
-              src="https://picsum.photos/seed/gal2/400/400" 
-              alt="Proyecto 2"
+              src="/documents/proyect_gallery/photo_2025-11-26_16-02-19.jpg" 
+              alt="Project Photo 2"
               className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
             />
           </div>
           <div className="col-span-2 relative rounded-xl overflow-hidden group">
             <img 
-              src="https://picsum.photos/seed/gal3/800/400" 
-              alt="Encuentro de Semillas"
-              className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
-            />
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 p-4">
-              <p className="text-white text-sm font-medium">Encuentro de Semillas 2024</p>
-            </div>
-          </div>
-          <div className="relative rounded-xl overflow-hidden group">
-            <img 
-              src="https://picsum.photos/seed/gal4/400/400" 
-              alt="Proyecto 4"
+              src="/documents/proyect_gallery/IMG_20251028_074337.jpg" 
+              alt="Urban Garden"
               className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
             />
           </div>
           <div className="relative rounded-xl overflow-hidden group">
             <img 
-              src="https://picsum.photos/seed/gal5/400/400" 
-              alt="Proyecto 5"
+              src="/documents/proyect_gallery/IMG_20251028_073917.jpg" 
+              alt="Project Photo 4"
+              className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+            />
+          </div>
+          <div className="relative rounded-xl overflow-hidden group">
+            <img 
+              src="/documents/proyect_gallery/IMG_20251028_074009.jpg" 
+              alt="Project Photo 5"
+              className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+            />
+          </div>
+          <div className="relative rounded-xl overflow-hidden group">
+            <img 
+              src="/documents/proyect_gallery/IMG_20251028_080858.jpg" 
+              alt="Project Photo 6"
+              className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+            />
+          </div>
+          <div className="relative rounded-xl overflow-hidden group">
+            <img 
+              src="/documents/proyect_gallery/IMG_20251028_081603.jpg" 
+              alt="Project Photo 7"
+              className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+            />
+          </div>
+          <div className="relative rounded-xl overflow-hidden group">
+            <img 
+              src="/documents/proyect_gallery/photo_2025-11-26_16-02-58.jpg" 
+              alt="Project Photo 8"
+              className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+            />
+          </div>
+          <div className="relative rounded-xl overflow-hidden group">
+            <img 
+              src="/documents/proyect_gallery/photo_2025-11-26_16-03-06.jpg" 
+              alt="Project Photo 9"
               className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
             />
           </div>

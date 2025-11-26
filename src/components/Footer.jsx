@@ -10,20 +10,20 @@ function Footer() {
             <span>Huertas UNAL</span>
           </a>
           <p className="text-sm mt-2 max-w-xs">
-            Fomentando la soberanía alimentaria y la investigación en entornos urbanos.
+            Promoting food sovereignty and research in urban environments.
           </p>
           <div className="mt-4 text-sm">
             <p>
-              Contacto: <a href="mailto:info@huertasunal.edu.co" className="text-green-500 hover:text-green-400">
+              Contact: <a href="mailto:info@huertasunal.edu.co" className="text-green-500 hover:text-green-400">
                 info@huertasunal.edu.co
               </a>
             </p>
           </div>
         </div>
         <div className="flex space-x-6 mb-6 md:mb-0">
-          <a href="#investigacion" className="hover:text-white transition">Investigación</a>
-          <a href="#tutoriales" className="hover:text-white transition">Tutoriales</a>
-          <a href="#galeria" className="hover:text-white transition">Galería</a>
+          <a href="#investigacion" className="hover:text-white transition">Research</a>
+          <a href="#tutoriales" className="hover:text-white transition">Tutorials</a>
+          <a href="#galeria" className="hover:text-white transition">Gallery</a>
         </div>
         <div className="flex space-x-4">
           <a href="#" className="p-2 bg-gray-800 rounded-full hover:bg-green-700 hover:text-white transition">
@@ -38,7 +38,7 @@ function Footer() {
         </div>
       </div>
       <div className="text-center mt-12 text-xs text-gray-600">
-        &copy; 2025 Huertas Urbanas UNAL. Proyecto Académico-Comunitario.
+        &copy; 2025 Urban Gardens UNAL. Academic-Community Project.
       </div>
     </footer>
   )
